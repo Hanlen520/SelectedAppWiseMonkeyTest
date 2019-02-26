@@ -1,0 +1,10 @@
+Android Monkey Test with selected app wise
+- Setup python 2.7
+- extract all app names and package names from android device and save in a file called "App.txt" at same location where code is
+- Change even, throttle, seed value in code if you want
+- run the code from command promp -> "pyhton monkeytest.py"
+- All app names will be listed on the command prompt.
+- Select number value against app name on which you want to execute monkey OR you may select 0(zero) to run all
+- Tool will start and execute monkey test one by one.
+- Monkey logs will be saved in MonkeyLog folder
+- Force close and ANR logs will be save in Logs folder
